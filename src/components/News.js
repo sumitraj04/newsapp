@@ -74,7 +74,7 @@ export class News extends Component {
             </div>
             <div className="container d-flex justify-content-end">
             <button type='button' className="btn btn-dark" onClick={this.handlePrvClick} disabled={this.state.page<=1}>&larr; Previous</button>&nbsp;&nbsp;
-            <button type='button' className="btn btn-dark" onClick={this.handleNxtClick} disabled={this.state.page>=Math.ceil(this.state.totalArticles/this.props.pageSize)}>Next &rarr;</button>
+            <button type='button' className='btn btn-dark' onClick={this.handleNxtClick} disabled={this.state.page>=Math.ceil(this.state.totalArticles/this.props.pageSize)}>Next &rarr;</button>
             </div>            
         </div>
     )
